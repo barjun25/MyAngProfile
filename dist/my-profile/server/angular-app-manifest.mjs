@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/MyAngProfile/',
+  baseHref: '/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/MyAngProfile"
+    "route": "/"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 859, hash: '01f05d882031e204bcf327d5e96ead64291a2460272b4744a2fcdd7c746d4282', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1065, hash: '13893ddb7025d9b935690d2aebe40032b9492a00958315c56461358f2ff8e098', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 13987, hash: '5f232bc7788df7f17e3973efa8498eb4f354470cbf26e46125c2a08911f8ee49', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'styles-AHGEH5LC.css': {size: 182, hash: 'lKzg+elY7pc', text: () => import('./assets-chunks/styles-AHGEH5LC_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 961, hash: '53824a4f5c46a742a36d6b441006b40521be24036a1121847b4b2bb9ee75ff97', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1052, hash: '5e2efb163d1aa7cc34b4fc2b332f469cf0b007bd4107b32b655500442a363b0f', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 17249, hash: '99198e75fea2e907b2dfa5a512ed929dc7b5a5a16f0bd3be4bb0fdd45462764d', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'styles-H7U2XHGY.css': {size: 342, hash: 'gYPJNkxBpU0', text: () => import('./assets-chunks/styles-H7U2XHGY_css.mjs').then(m => m.default)}
   },
 };

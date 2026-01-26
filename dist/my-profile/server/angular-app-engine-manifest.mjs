@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/MyAngProfile',
+  basePath: '/',
   supportedLocales: {
   "en-US": ""
 },
