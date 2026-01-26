@@ -1,0 +1,134 @@
+#footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding: 2%;
+    text-align: center;
+    background: linear-gradient(
+      135deg,
+      #FF986A
+    );
+    color: #2c3e50;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50rem;
+}
+
+.space {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  text-decoration: none;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+.space:hover {
+  color: #3b82f6;
+  transition: color 0.3s ease;
+}
+
+.contact-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: inherit;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  width: 90%;
+  text-align: center;
+  animation: slideIn 0.3s ease;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+.contact-info {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.contact-info p {
+  margin: 1rem 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-info a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.about-info {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.about-info p {
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+.close-btn {
+  background-color: #FF986A;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border-radius: 5%;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+  background-color: #FF7A4A;
+}

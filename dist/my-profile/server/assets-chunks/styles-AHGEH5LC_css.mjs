@@ -1,0 +1,2 @@
+export default `*{box-sizing:border-box}html{height:100%}body{font-family:Poppins,sans-serif;background:linear-gradient(135deg,#f5f7fa,#e9ecef,#f0f2f5);color:#2c3e50;margin:0;padding:0;height:100%}
+`;

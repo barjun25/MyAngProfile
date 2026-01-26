@@ -1,0 +1,66 @@
+<section id="footer">
+  <footer>
+    <div>
+      <h3>(Click on the link below for details)</h3>
+      <div class="footer-links">
+        <button class="space contact-btn" (click)="openContactPopup()">
+          Contact Me
+        </button>
+        <button class="space contact-btn" (click)="openAboutPopup()">
+          About Me
+        </button>
+      </div>
+    </div>
+  </footer>
+</section>
+
+<!-- Contact Popup Modal -->
+<div
+  class="modal-overlay"
+  *ngIf="showContactPopup"
+  (click)="closeContactPopup()"
+>
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <h2>Contact Information</h2>
+    <div class="contact-info">
+      <p>
+        <strong>Phone:</strong> <a [href]="'tel:' + phone">{{ phone }}</a>
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a [href]="'mailto:' + email">{{ email }}</a>
+      </p>
+    </div>
+    <button class="close-btn" (click)="closeContactPopup()">Close</button>
+  </div>
+</div>
+
+<!-- About Popup Modal -->
+<div class="modal-overlay" *ngIf="showAboutPopup" (click)="closeAboutPopup()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <h2>About Me</h2>
+    <div class="about-info">
+      <p>
+        I am really big fan of coding. I love to keep myself updated with latest
+        technologies and would like to explore any new coding languages.
+      </p>
+      <p>
+        I studied Chemical engineering in Siddaganga Institute of Technology,
+        Tumkur but was still interested to learn programming also everything
+        related to computers, also capable of assembling all parts of the
+        computer on my own.
+      </p>
+      <p>
+        I started my carrier in a manufacturing industry (production of
+        confectionaries) in Prayagh Nutri-products Ltd., Hyderabad worked as a
+        Production Incharge. Later joined a PCB manufacturing company, AT&S
+        Pvt., Ltd., Nanjangud where my position was Process Quality Engineer.
+        Here my responsibilities for the data analytics of chemical components
+        in the production lines. Later started my IT journey in DXC
+        Technologies, Bangalore as a IT helpdesk technician
+      </p>
+      <p>I am a big time foodie and love to explore different cusines</p>
+    </div>
+    <button class="close-btn" (click)="closeAboutPopup()">Close</button>
+  </div>
+</div>
