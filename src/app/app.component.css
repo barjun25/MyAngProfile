@@ -138,7 +138,7 @@ main {
   text-align: center;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   main {
     margin: 1rem auto;
     gap: 1.5rem;
@@ -256,7 +256,7 @@ main {
     padding: clamp(2rem, 5vw, 3rem);
     font-size: 1.8rem;
   }
-}
+} */
 
 .container-fluid{
   text-align: center;
@@ -370,3 +370,4 @@ main {
 .close-btn:hover {
   background-color: #2563eb;
 }
+
