@@ -10,7 +10,7 @@ import { BirthdayProjectComponent } from './birthday-project/birthday-project.co
   standalone: true,
   imports: [HeaderComponent, FooterComponent, CommonModule],
   templateUrl: './app.component.html',
-  styleUrl: 'src/app/app.component.css'
+  styleUrl: 'app.component.css'
 })
 export class AppComponent {
   @Input({ required: true }) link!: string;
@@ -59,4 +59,5 @@ export class AppComponent {
     this.showEpicorPopup = false;
   }
 }
+
 
