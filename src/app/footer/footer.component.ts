@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-footer',
   imports: [CommonModule],
   templateUrl: './footer.component.html',
-  styleUrl: 'src/app/footer/footer.component.css'
+  styleUrl: 'footer.component.css'
 })
 export class FooterComponent {
   showContactPopup = false;
@@ -30,3 +30,4 @@ export class FooterComponent {
   }
 
 }
+
