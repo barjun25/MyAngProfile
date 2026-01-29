@@ -28,4 +28,7 @@ export class FooterComponent {
   closeAboutPopup() {
     this.showAboutPopup = false;
   }
+
 }
+
+

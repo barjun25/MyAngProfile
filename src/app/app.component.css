@@ -1,4 +1,4 @@
-main {
+main * {
   width: 95%;
   max-width: 1200px;
   margin: 1.5rem auto;
@@ -134,7 +134,7 @@ main {
 }
 
 @media (max-width: 480px) {
-  main {
+  main * {
     margin: 1rem auto;
     gap: 1.5rem;
     width: 95%;
@@ -147,7 +147,7 @@ main {
 }
 
 @media (min-width: 768px) {
-  main {
+  main * {
     margin: 3rem auto;
     grid-template-columns: 1fr 3fr;
   }
@@ -167,7 +167,7 @@ main {
 }
 
 @media (min-width: 1024px) {
-  main {
+  main * {
     margin: 4rem auto;
     gap: 2.5rem;
   }
@@ -179,7 +179,7 @@ main {
 }
 
 @media (min-width: 1280px) {
-  main {
+  main * {
     max-width: 1400px;
     width: 98%;
     margin: 4rem auto;
@@ -214,7 +214,7 @@ main {
 }
 
 @media (min-width: 1920px) {
-  main {
+  main * {
     max-width: 1600px;
     width: 98%;
     margin: 5rem auto;
@@ -365,3 +365,5 @@ main {
 .close-btn:hover {
   background-color: #2563eb;
 }
+
+
