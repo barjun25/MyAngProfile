@@ -3,10 +3,10 @@
     box-sizing: border-box;
   }
   
-  html {
+  /* html {
     height: 100%;
     font-size: 16px;
-  }
+  } */
   
   body {
     font-family: "Poppins", sans-serif;
@@ -337,6 +337,7 @@ app-footer {
     font-size: 1.8rem;
   }
 } */
+
 
 
 
