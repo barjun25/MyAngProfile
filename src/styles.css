@@ -47,7 +47,7 @@ app-footer {
   }
 
   app-header * {
-    font-size: 0.9rem !important;
+    font-size: 0.9rem;
     line-height: 1.3;
     white-space: normal;
     word-break: break-word;
@@ -76,7 +76,7 @@ app-footer {
   }
 
   app-footer * {
-    font-size: 0.85rem !important;
+    font-size: 0.85rem;
     line-height: 1.4;
     text-align: center;
     white-space: normal;
@@ -337,5 +337,6 @@ app-footer {
     font-size: 1.8rem;
   }
 } */
+
 
 
