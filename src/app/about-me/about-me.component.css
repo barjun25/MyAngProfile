@@ -49,6 +49,34 @@
   overflow-y: auto;
 }
 
+@media (max-width: 480px) {
+  .modal-content {
+    padding: 1.25rem;
+    width: 95%;
+    max-height: 90vh;
+  }
+  
+  .modal-content h2 {
+    font-size: 1.35rem;
+  }
+  
+  .close-btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+@media (max-width: 360px) {
+  .modal-content {
+    padding: 1rem;
+    width: 95%;
+  }
+  
+  .modal-content h2 {
+    font-size: 1.2rem;
+  }
+}
+
 @keyframes slideIn {
   from {
     opacity: 0;
@@ -92,8 +120,12 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   transition: background-color 0.3s ease;
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin: 1rem auto 0;
+  min-height: 44px;
+  min-width: 44px;
 }
 
 .close-btn:hover {

@@ -45,7 +45,32 @@ header {
     line-height: 1.6;
   }
 
-  /* Mobile First - Extra Small Screens */
+  /* Extra-small screens: prevent overflow */
+  @media (max-width: 360px) {
+    header {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem auto 1rem auto;
+      gap: 0.5rem;
+    }
+    
+    img {
+      width: 72px;
+      height: 72px;
+    }
+    
+    h1 {
+      font-size: 1.1rem;
+      padding-bottom: 0.5rem;
+    }
+    
+    p {
+      font-size: 0.75rem;
+      padding: 0.5rem 0;
+    }
+  }
+
+  /* Mobile: small screens */
   @media (max-width: 767px) {
     header {
       gap: 0.75rem;

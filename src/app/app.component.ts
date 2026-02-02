@@ -1,9 +1,8 @@
-import { Component, ElementRef, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from "./footer/footer.component";
-import { BirthdayProjectComponent } from './birthday-project/birthday-project.component';
 
 @Component({
   selector: 'app-root',
@@ -13,19 +12,10 @@ import { BirthdayProjectComponent } from './birthday-project/birthday-project.co
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  @Input({ required: true }) link!: string;
   showPrayaghPopup = false;
   showATSPopup = false;
   showDXCPopup = false;
   showEpicorPopup = false;
-
-  get elementLink() {
-    this.link = '<app-birthday-project />';
-    return this.link;
-  }
-
-  onBiPrClick() {
-  }
 
   openPrayaghPopup() {
     this.showPrayaghPopup = true;
