@@ -6,6 +6,14 @@ main * {
   grid-auto-flow: row;
   gap: 2rem;
   padding: 0 0.5rem;
+  box-sizing: border-box;
+}
+
+/* Ensure main content stays centered and never overflows (350px and up) */
+@media (max-width: 1150px) {
+  main * {
+    max-width: 100%;
+  }
 }
 
 #myprojects {

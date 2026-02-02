@@ -1,3 +1,19 @@
+:host {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section#footer {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
 #footer {
     font-family: 'Montserrat', sans-serif;
     font-size: clamp(0.8rem, 4vw, 2rem);
@@ -8,6 +24,23 @@
       #FF986A
     );
     color: #2c3e50;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#footer footer {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+#footer footer > div {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .footer-links {
@@ -17,6 +50,7 @@
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .space {
@@ -34,6 +68,31 @@
   transition: color 0.3s ease;
 }
 
+/* From 1150px down: keep footer content visible and centered (no overflow/hidden) */
+@media (max-width: 1150px) {
+  #footer {
+    width: 100%;
+    max-width: 100%;
+    padding: 1.25rem 1rem;
+    box-sizing: border-box;
+  }
+  
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 100%;
+  }
+  
+  #footer h3 {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    margin: 0 auto 0.75rem;
+    font-size: clamp(0.85rem, 3vw, 1.1rem);
+  }
+}
+
 @media (min-width: 768px) {
   #footer {
     padding: 2rem;
@@ -46,6 +105,20 @@
   
   .space {
     margin: 0 1rem;
+  }
+}
+
+/* Between 768px and 1150px: row layout but ensure wrap and no overflow */
+@media (min-width: 768px) and (max-width: 1150px) {
+  .footer-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .space {
+    margin: 0 0.5rem;
   }
 }
 
