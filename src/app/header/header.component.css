@@ -45,7 +45,7 @@ header {
   }
   
   h1 {
-    font-size: clamp(1rem, 5vw, 2.5rem);
+    font-size: 1rem;
     margin: 0;
     padding-bottom: 1rem;
     max-width: 100%;
@@ -88,7 +88,7 @@ header {
       font-size: 0.75rem;
       padding: 0.5rem 0;
     }
-  }
+  } */
 
 @media (max-width: 500px) {
     h1 {
@@ -105,7 +105,7 @@ header {
         align-items: center;
         gap: 1rem;
     }
-} */
+}
 
   /* Mobile: small screens - keep h1 and text contained, no overflow */
 /*  @media (max-width: 767px) {
@@ -232,5 +232,6 @@ header {
       line-height: 1.8;
     }
   }
+
 
 
