@@ -93,7 +93,7 @@ section#footer {
   }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   #footer {
     padding: 2rem;
   }
@@ -106,10 +106,10 @@ section#footer {
   .space {
     margin: 0 1rem;
   }
-}
+} */
 
 /* Between 768px and 1150px: row layout but ensure wrap and no overflow */
-@media (min-width: 768px) and (max-width: 1150px) {
+/* @media (min-width: 768px) and (max-width: 1150px) {
   .footer-links {
     flex-direction: row;
     flex-wrap: wrap;
@@ -164,7 +164,7 @@ section#footer {
     min-height: 44px;
     min-width: 44px;
   }
-}
+} */
 
 @media (max-width: 500px) {
     h1 {
@@ -282,5 +282,6 @@ section#footer {
 .close-btn:hover {
   background-color: #FF7A4A;
 }
+
 
 
