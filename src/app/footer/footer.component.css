@@ -175,7 +175,7 @@ section#footer {
         width: 30%;
     }
 
-    .footer-links: {
+    .footer-links {
         display: grid;
         justify-content: center;
         align-items: center;
@@ -282,6 +282,7 @@ section#footer {
 .close-btn:hover {
   background-color: #FF7A4A;
 }
+
 
 
 
