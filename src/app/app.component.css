@@ -159,7 +159,7 @@ main * {
 }
 
 /* Extra-small screens: avoid overflow and keep tap targets usable */
-@media (max-width: 360px) {
+/* @media (max-width: 360px) {
   main * {
     width: 100%;
     padding: 0 0.25rem;
@@ -206,8 +206,8 @@ main * {
 @media (min-width: 768px) {
   main * {
     margin: 3rem auto;
-    grid-template-columns: 1fr; /* single column for full-width content */
-  }
+    grid-template-columns: 1fr; 
+  } 
 
   #users {
     flex-direction: row;
@@ -221,7 +221,7 @@ main * {
     width: 280px;
     height: 190px;
   }
-}
+} */
 
 @media (min-width: 1024px) {
   main * {
@@ -430,6 +430,7 @@ main * {
 .close-btn:hover {
   background-color: #2563eb;
 }
+
 
 
 
