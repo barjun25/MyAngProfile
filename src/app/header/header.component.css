@@ -90,6 +90,23 @@ header {
     }
   }
 
+@media (max-width: 500px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    img {
+        width: 30%;
+    }
+
+    .footer-links: {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
   /* Mobile: small screens - keep h1 and text contained, no overflow */
   @media (max-width: 767px) {
     header {
@@ -215,3 +232,4 @@ header {
       line-height: 1.8;
     }
   }
+
