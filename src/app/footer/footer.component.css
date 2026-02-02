@@ -166,6 +166,23 @@ section#footer {
   }
 }
 
+@media (max-width: 500px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    img {
+        width: 30%;
+    }
+
+    .footer-links: {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
 /* Modal Styles */
 .modal-overlay {
   position: fixed;
@@ -265,4 +282,5 @@ section#footer {
 .close-btn:hover {
   background-color: #FF7A4A;
 }
+
 
