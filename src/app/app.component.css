@@ -16,6 +16,23 @@ main * {
   }
 }
 
+@media (max-width: 500px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    img {
+        width: 30%;
+    }
+
+    .footer-links: {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
 #myprojects {
   display: flex;
   text-align: center;
@@ -413,5 +430,6 @@ main * {
 .close-btn:hover {
   background-color: #2563eb;
 }
+
 
 
