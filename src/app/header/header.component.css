@@ -92,7 +92,7 @@ header {
 
 @media (max-width: 500px) {
     h1 {
-        font-size: 3rem;
+        font-size: 0.2rem;
     }
 
     img {
@@ -232,6 +232,7 @@ header {
       line-height: 1.8;
     }
   }
+
 
 
 
