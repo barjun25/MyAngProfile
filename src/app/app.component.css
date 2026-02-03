@@ -25,7 +25,7 @@ main * {
         width: 30%;
     }
 
-    .footer-links: {
+    .footer-links {
         display: grid;
         justify-content: center;
         align-items: center;
@@ -430,6 +430,7 @@ main * {
 .close-btn:hover {
   background-color: #2563eb;
 }
+
 
 
 
