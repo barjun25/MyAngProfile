@@ -99,7 +99,7 @@ header {
         width: 30%;
     }
 
-    .footer-links: {
+    .footer-links {
         display: grid;
         justify-content: center;
         align-items: center;
@@ -232,6 +232,7 @@ header {
       line-height: 1.8;
     }
   }
+
 
 
 
