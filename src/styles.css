@@ -95,12 +95,12 @@ app-footer {
     }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   main {
     width: 90%;
     margin: 3rem auto;
     grid-template-columns: 1fr; /* single column so content uses full width */
-    gap: 2rem;
+   /* gap: 2rem;
   }
 
   #users {
@@ -110,7 +110,7 @@ app-footer {
   #fallback {
     text-align: center;
   }
-}
+} */
 
 @media (min-width: 1024px) {
   main {
@@ -283,6 +283,7 @@ app-footer {
     font-size: 1.8rem;
   }
 } */
+
 
 
 
